@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Sofia DeCola</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="webpage.css">
+  <script src="webpage.js" defer></script>
+
+</head>
+
+<body class="webpage">
+
+  <header>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#work">Work Experience</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1 id="greeting"></h1>
+    <hr>
+    <h3>Sofia DeCola - Class of 2026</h3>
+    <p>Computer Science Major, Biology Minor</p>
+    <p>Fan of Comedy Movies, Classic Rock, and Coding!</p>
+    <img src="./IMG_0143.jpeg" style="width:500px;height:600px;"alt="A selfie of Sofia hiing in Freiburg, Germany">
+
+    <hr>
+
+    <div class="section-row">
+      <section id="work" class="section work-section">
+        <h2>Work Experience and Goals</h2>
+        <p id="work-content">
+          This past summer I had the opportunity to work as a Computational Biology Intern at Verve Therapeutics in Boston.
+          I hope to pursue a PhD after college in Computational Oncology and apply computational methods to further progress analysis of medical data in the oncology field.
+        </p>
+        <button id="toggle-work">Click Me!</button>
+      </section>
+
+      <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <p>I am from Plymouth, Massachusetts. I am involved on campus as the President of Gamma Phi Beta, the New Member Educator and former
+          Co-President of Alpha Phi Omega, a singer in jazz band, a member of the Computer Science helpdesk, as well as participating in on-campus research 
+          writing code to analyze proteomics data.</p>
+        <img id="about-img" src="./IMG_3360.jpeg" style="width:100%; max-width:300px; display: none;" alt="My cute and adorable dog mocha!">
+        <button id="toggle-about-img">Who's Mocha?</button>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <h2>CSC 380 Projects</h2>
+        <p>Check out my GitHub repository for CSC 380 projects:</p>
+        <button id="github-button" onclick="window.open('https://github.com/sofiadecola/CSC-380.git', '_blank')">
+          My Github
+        </button>
+      </section>
+    </div>
+
+  </div>
+
+  <footer>
+    CSC 380 - User Interfaces - Winter 2025
+  </footer>
+
+</body>
+
+</html>

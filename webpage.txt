@@ -1,0 +1,11 @@
+Sofia DeCola
+Things I changed in this submission and why!
+
+1. Created a js file, webpage.js, to be able to add interactive elements to the page
+2. Renamed the three files (webpage.html, webpage.css, webpage.js) to keep everything organized
+3. Added interactive buttons in each category section which collapse or expand text/pictures, to add dynamic to the category sections
+4. Changed the color between categories to increase visual distinction
+5. Stacked the boxes vertically for a more adaptable layout, and also so the navigation bar can interactively bring the user to the section
+6. Changed the title header to have a specialized greeting based on the time of day (Good Monring, afternoon, evening) to add a fun, lowkey event listener
+7. Updated hover effects on the navigation bar and buttons to improve the visual aesthetic of the page
+8. Added some additional text to keep the page balanced with the additions above

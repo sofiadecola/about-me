@@ -1,0 +1,96 @@
+.webpage {
+    background-color: #C2DAB8;
+    font-family: "Georgia";
+    color: #2b611a;
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 60px;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #2b611a;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    display: inline;
+    text-align: center;
+  }
+  
+  .nav-menu a {
+    color: #C2DAB8;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .section-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .section {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #2b611a;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .work-section {
+    background-color: #e0f2e9;
+  }
+  
+  .about-section {
+    background-color: #f2e0e0;
+  }
+  
+  .projects-section {
+    background-color: #e0e0f2;
+  }
+  
+  footer {
+    background-color: #2b611a;
+    color: #C2DAB8;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #2b611a;
+    color: #C2DAB8;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #4a8a34;
+  }
+  
+  .nav-menu a:hover {
+    color: white;
+  }
+  
